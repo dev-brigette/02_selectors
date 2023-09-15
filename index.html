@@ -3,9 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CSS Selectors</title>
+  <style>
+    h2 {
+      color:orangered;
+    }
+
+    section {
+      border: 2px rgb(32, 35, 211) solid;
+      margin-bottom: 50px;
+      padding: 20px;
+    }
+
+    .section-background {
+      background-color: aqua;
+    }
+
+    #signup-heading {
+      font-size: 2em;
+    }
+
+    #join-us {
+      color: rgb(252, 30, 30);
+      text-align: center;
+    }
+
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Welcome</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Join Us</h2>
+      <p id="join-us">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptate molestias rerum culpa ex dolore sapiente obcaecati, nesciunt dicta sequi consequatur libero, itaque quisquam necessitatibus iste. Dolorum ad unde nisi odit pariatur ducimus voluptates omnis fugiat iure natus eius laudantium ullam, rem molestias eveniet recusandae, illo quam error voluptate iste.</p>
+    </section>
+
+    <section class="section-background">
+      <h2>The Cause</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, labore, optio assumenda velit dolore autem voluptatum sequi delectus, culpa quam impedit explicabo quo earum! Eius porro ab impedit corrupti animi, totam, mollitia, ducimus quibusdam dicta itaque ipsa enim explicabo eaque!</p>
+    </section>
+
+    <section class="section-background">
+      <h2 id="signup-heading">Sign Up</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, labore, optio assumenda velit dolore autem voluptatum sequi delectus, culpa quam impedit explicabo quo earum! Eius porro ab impedit corrupti animi, totam, mollitia, ducimus quibusdam dicta itaque ipsa enim explicabo eaque!</p>
+    </section>
+  </main>
+  
+
+
+
   
 </body>
 </html>
